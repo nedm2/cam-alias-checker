@@ -1,0 +1,323 @@
+2014-07-15  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Added regression suite
+
+2014-07-15  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Moved all tests from main.cpp to unit_tests.cpp and fixed iterator bug in IntervalTree.h
+
+2014-07-14  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Added unit tests file, changed dependence analysis to run alias analysis on each
+	overlap as it is found resulting in reduced memory consumption.
+
+2014-07-11  Niall Murphy  <nedm2@cam.ac.uk>
+
+	No files generated unless instrumentation functions are called.
+
+2014-07-05  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Added to the output stats info about how many dynamic dependences were not found in the static DDG
+
+2014-07-05  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Fixed bug where dynamic deps not found in static ddg were not counted
+
+2014-07-04  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Added timeout counter to dependence analysis and fixed bug in memory trace parser
+
+2014-07-01  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Fixed up some format specifiers to be more cross platform correct
+
+2014-07-01  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Fixed some 64 bit compilation issues
+
+2014-07-01  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Changed call/loop trace to dump all output to a single file
+
+2014-06-30  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Added timeout counter to estimate amount of work missed after timeout. Also many performance upgrades.
+
+2014-06-23  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Added LIBCAM_OUTPUT_DIRECTORY environment variable
+
+2014-06-13  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Major changes to use new control flow based instruction traces which record exact ordering of instructions
+
+2014-05-21  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Make interface to memory tracer 64 bits for lengths
+
+2014-05-09  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Memory tracer dumps when memory gets low.
+
+2014-04-25  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Output to stdout any dependence pairs not found in static DDG
+
+2014-04-25  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Bugfixes
+
+2014-04-24  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Minor changes
+
+2014-04-24  Niall Murphy  <nedm2@cam.ac.uk>
+
+	New loop trace parser which only parses invocations as they are needed to save memory
+
+2014-04-17  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Bugfixes
+
+2014-04-16  Niall Murphy  <nedm2@cam.ac.uk>
+
+	More memory improvements
+
+2014-04-16  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Major changes to reduce the memory consumption of the profiler
+
+2014-04-12  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Small updates
+
+2014-04-11  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Separated out code for memory tracer to make modifications easier
+
+2014-04-10  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Added parser for new compressed call trace format
+
+2014-04-10  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Loop trace: Don't allocate heap memory for 64 bit pointers if in 64-bit mode.
+
+2014-04-09  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Added parser for the new compressed loop trace format
+
+2014-04-07  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Implemented new algorithm for dependence analysis and made small fix to the loop_trace output formatting
+
+2014-04-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Compress the loop trace further.
+
+2014-04-04  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Loop tracer only uses ID on final trace if there has been one previously.
+
+2014-04-04  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Loop tracer now uses the loop ID in the final output.
+
+2014-04-04  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Dump the loop trace periodically if memory consumption is tight.
+
+2014-04-03  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Performance upgrades
+
+2014-04-02  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Provide a memory allocator to keep track of memory use
+
+2014-03-31  Niall Murphy  <nedm2@cam.ac.uk>
+
+	More bugfixes
+
+2014-03-27  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Bugfixes
+
+2014-03-27  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Added code to analyse the call trace
+
+2014-03-20  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Don't dereference a pointer that could be NULL.
+
+2014-03-20  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Some calls are made outside the loop.
+
+2014-03-20  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Enable memory debugging
+
+2014-03-17  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Split a loop trace into loop and call traces.
+
+2014-03-14  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Remove dead code from loop trace.
+
+2014-03-14  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Remove notification of no instructions being recorded
+
+2014-03-03  Niall Murphy  <nedm2@cam.ac.uk>
+
+	General performance improvements
+
+2014-02-21  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed bug in casting pointer to integer, not integer pointer
+
+2014-02-20  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Provide an optdebug configure option
+
+2014-02-20  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Remove spurious abort()
+
+2014-02-19  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Implemented brute force alias checking for patterns which are not "nice"
+
+2014-02-18  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Bugfixes and improvements
+
+2014-02-14  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Tidying up dependence analysis and extending to identify write-write aliasing
+
+2014-02-13  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Implemented outputting of dependence pairs
+
+2014-02-12  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Implemented dynamic_gcd, finds aliases in stride patterns
+
+2014-02-11  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Created new StaticLoopRec to store the parsed loop trace which will be independent
+	of LoopTrace. General tidying and enforcing 64 bit integers for dynamic counts
+
+2014-02-11  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fix memory leaks
+
+2014-02-10  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Use 64 bit unsigned integers for dynamic counts
+
+2014-02-10  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Implement delayed invocations
+
+2014-02-07  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Commit progress on dependence analysis
+
+2014-02-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Remove some aborts.  Fix printing to a string length.
+
+2014-02-05  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Record dynamic instances of instructions for each iteration of their loop.
+
+2014-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set the library to LIBADD rather than LDFLAGS
+
+2014-02-04  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fix off by one error and don't print loop trace if nothing there.
+
+2014-02-04  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Added main.cpp (omitted on previous commit)
+
+2014-02-04  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Merged with Niall's work
+
+2014-02-03  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Added instruction trace parser and unit test (main.cpp), also fixed off by one error
+	in printing the loop trace iterations
+
+2014-02-04  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fix loop printing and allow library to be used in multiple modes
+
+2014-02-03  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fix bug in calculating loop invocation ends.
+
+2014-01-31  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Install in top level directory (not in iljit subdirectory)
+
+2014-01-31  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Added in loop trace profiling support.
+
+2014-01-30  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Another C++ removal from cam.h
+
+2014-01-30  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Remove C++ dependences from cam.h
+
+2014-01-30  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Moved declarations of StaticInstRec and MemorySetEntry out of publicly exported cam.h
+
+2014-01-29  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Setup autotools to compile the parser
+
+2014-01-29  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Added src/memory_trace_parse.lex 
+
+2014-01-29  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Add checks for libplatform into configure.ac and Makefile.am
+
+2014-01-28  Niall Murphy  <nedm2@cam.ac.uk>
+
+	First implementation of memory tracing. 
+
+2014-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link with xanlib.
+
+2014-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	API
+
+2014-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the pkgconfig file
+
+2014-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the pkgconfig file
+
+2014-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

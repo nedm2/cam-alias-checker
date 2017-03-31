@@ -1,0 +1,824 @@
+2014-06-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2014-06-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function.
+
+2014-03-28  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Implement emptying hash table and freeing key
+
+2014-03-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2014-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cache XanListItem deleted.
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-05  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Implement xanHashTable_replace()
+
+2014-02-04  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed spelling mistake
+
+2014-02-04  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed xanBitSet_getFirstBitSetInRange() and xanBitSet_getFirstBitUnsetInRange()
+
+2014-01-29  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Implement xanBitSet_getFirstBitUnsetInRange() and xanBitSet_areEqual()
+
+2014-01-27  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	New implementation of xanBitSet_getFirstBitSetInRange()
+
+2013-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the flags
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Generate the static library as well.
+
+2013-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function.
+
+2013-12-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new assertion
+
+2013-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2013-12-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+
+2013-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Changed the comments
+
+2013-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2013-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed wrong assertions
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-10-13  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Added xanBitSet_setBits() function
+
+2013-10-01  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Added call to get the length of a bitset.
+
+2013-09-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the doc
+
+2013-08-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation.
+
+2013-08-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function to XanList. Improved the documentation.
+
+2013-06-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup counting the number of bits in a bitset.
+
+2013-06-05  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Implement bitset equality correctly for different sized bitsets.
+
+2013-05-24  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Turn the keys in a hash table into an array.
+
+2013-04-06  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Allow bit set to automatically expand.
+
+2013-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2013-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a parameter to a public function.
+
+2012-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make a function homogeneous with others
+
+2012-11-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-11-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the bitset uniform
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the XanGraph API uniform
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the documentation
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation. Removed xanHashTable_destroy as redundant.
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-20  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Implement xanHashTable_lookupItem()
+
+2012-09-28  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rename a function to xanHashTable_toKeyList
+
+2012-09-26  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Moved and renamed several functions for XanHashTable.  More updates
+	will follow in later changesets.
+
+2012-09-24  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Added stand-alone XanHashTable lock and unlock functions.  Remove function
+	pointers for XanHashTable insert and lookup within the code (but retain
+	them with the structure).
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the API more homogeneous
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function xanHashTable_addList.
+	Move the destroy function outside the data structure.
+
+2012-08-18  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Add functions for reversing a list in place.
+
+2012-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed unnecessary calls.
+
+2012-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove some redundant calls.
+
+2012-07-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation.
+
+2012-07-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup
+
+2012-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Tim's work. Removed functions pointers about elementsInside from the HashTable data structure.
+
+2012-07-06  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Moved some functions into xantable and created new API.
+
+2012-07-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function.
+	Started the new hash table API.
+
+2012-07-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2012-07-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed calls
+
+2012-06-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak
+
+2012-05-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed an error from the documentation
+
+2012-05-06  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Implementation of XanBitSet_IsEmpty()
+
+2012-05-06  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Implement XanBitSet_IsIntersectionEmpty()
+
+2012-05-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Minor changes
+
+2012-04-24  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Added xanList_containsAllElements() function.
+
+2012-04-12  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Add function to get a list of keys into a hash table.
+
+2012-04-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-26  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Added xanstack.c which was missing
+
+2012-03-26  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	New XanStack API
+
+2012-03-12  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Remove invalid assertions
+
+2012-03-12  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Merge with latest version
+
+2012-03-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove wrong assertions
+
+2012-03-08  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Removal of function pointers in XanQueue
+
+2012-03-08  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Removal of function pointers in XanPipe
+
+2012-03-08  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Removal of function pointers in XanVar
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Restructuring of XanList, including the removal of function pointers
+
+2012-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some functions
+
+2012-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Extended the API
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed warnings when it is compiled for 64 bits architectures.
+
+2012-01-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle C++ external modules
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move some functions outside data structures.
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.5.0
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move some functions outside critical sections
+
+2011-12-03  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	More docs
+
+2011-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added libtool macro
+
+2011-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Tim's work
+
+2011-12-01  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Added more docs.
+
+2011-12-01  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	More documentation.
+
+2011-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove useless information
+
+2011-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-11-30  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Documentation updates.  Actually allow allocFunction and freeFunction
+	to be NULL in the *New functions.
+
+2011-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved some functions outside data structures
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved some functions outside the data structure
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Include the documentation to the ILDJIT one
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the title
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move some functions outside the data structure
+
+2011-11-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-11-18  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Implemented XanBitSet_GetFirstBitSetInRange
+
+2011-11-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Tim's work
+
+2011-11-17  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Added a variety of functions to XanList, XanStack, XanNode and XanBitSet
+	
+	XanBitSet_InvertBits
+	XanBitSet_Union
+	xanList_getSharedElements
+	xanStack_toList
+	getDepth
+
+2011-11-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump errors
+
+2011-11-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added xanList_deleteAndFreeElements
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved some functions outside data structure
+
+2011-11-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move some function outside the data structure.
+
+2011-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a function
+
+2011-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cleaning the code
+
+2011-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the graph data structure
+
+2011-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added functions to XanStack
+
+2011-10-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-09-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added xanList_last
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable the API for C++ programs
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Diego's work
+
+2011-08-03  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-08-02  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-07-29  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Added conditional compilation for multi application support
+
+2011-07-11  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-06-15  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-05-23  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Merge with main branch
+
+2011-03-12  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Enabled structures to work in shared memory environment
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized sources
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.4.1
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function xanList_first.
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Normalized platform API header inclusion
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-05-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-05-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.4.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Luca's work
+
+2011-04-15   Committer: Luca  <luca@turbo> 
+
+	Nothing
+
+2011-03-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Fixed compiling errors with MinGW. This lib can now be compiled with minGW.
+
+2011-03-02  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added multi-platform support with libplatform
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the function xanStack_pop
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link with libplatform
+
+2011-02-12  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-11   Committer: Luca  <luca@turbo> 
+
+	Merge Xan's work
+
+2011-01-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-02-05  Luca  <luca@ops-notebook>
+
+	add dependency from libplatform
+
+2011-02-03  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	removed compiling error with multi PLATFORM_ support
+
+2011-01-31  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support for functions pthread_create, pthread_join, pthread_self, pthread_once, pthread_equal, pthread_attr_init, pthread_attr_setscope, pthread_attr_setstacksize, pthread_attr_setinheritsched, pthread_attr_setschedparam, pthread_attr_setschedpolicy, pthread_mutex_init, pthread_mutexattr_init, pthread_mutexattr_settype, pthread_mutex_destroy, pthread_mutex_lock, pthread_mutex_trylock, pthread_mutex_unlock, pthread_cond_init, pthread_cond_wait, pthread_cond_signal, pthread_cond_broadcast, pthread_cond_destroy (all in pthread.h)
+
+2010-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-18  Luca  <luca@rugen>
+
+	correct wrong name in exported symbol
+
+2010-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-05  Luca  <luca@ops-notebook>
+
+	Fix wrong initialization of XanQueue
+
+2010-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-11-24  Luca  <luca@ops-notebook>
+
+	Insert assertion
+	update pthread lock init code
+
+2010-11-04  Luca  <luca@ops-notebook>
+
+	Add PriorityQueue
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the function xanStack_top.
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.0
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-07  Luca  <luca@ops-notebook>
+
+	remove recursive pthread
+
+2010-09-28  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-09-25  Luca  <luca@ops-notebook>
+
+	remove unused header
+
+2010-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function XanList_getPositionNumberFromElement.
+	Merge with Luca's work
+
+2010-09-20  Luca  <luca@ops-notebook>
+
+	use recursive locks
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.1
+
+2010-07-31  Luca  <luca@ops-notebook>
+
+	merge works
+
+2010-05-31  Luca  <luca@ops-notebook>
+
+	Increase Load Factor of HashTable to 0.75
+
+2010-05-09  Luca  <luca@ops-notebook>
+
+	uncorrect free function pointer
+
+2010-08-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge debian packages work
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Debian packages
+
+2010-08-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/xanlib.c
+	unknown:
+	src/tags
+
+2010-04-27  Luca  <luca@ops-notebook>
+
+	Implement new Iterator for XanHashTable
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.0
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Update the documentation
+
+2010-04-23  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Merge 
+
+2010-04-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+
+2010-04-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	CFLAGS bug fixing
+
+2010-04-23  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Fix makefile
+
+2010-04-19  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Fixed wrong returned type for XanBitSet_GetCountOfBitsSet() function
+
+2010-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	AUTHORS
+
+2010-04-15  Luca  <luca@ops-notebook>
+
+	micky works
+
+2010-04-15  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Added XanBitSet_Subtract() function added
+
+2010-04-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimized the function _xanHashTableElementsInside.
+
+2010-04-15  Luca  <luca@ops-notebook>
+
+	Add support for NULL as key in HashTable
+
+2010-04-09  Luca  <luca@ops-notebook>
+
+	commit micky works
+
+2010-04-08  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Implemented XanHashTable_ToItemList() function.
+
+2010-04-07  Luca  <luca@ops-notebook>
+
+	Reimplement hashtable as Prime Double open Chaining mode
+
+2010-04-07  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Wrong assertion removed
+
+2010-04-06  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Implemented XanBitSet_IsSubSetOf() function.
+
+2010-04-01  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Implemented XanBitSet data structure
+
+2010-03-31  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Added XanStackContains() function
+
+2010-03-31  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Initial commit: import from CVS
+

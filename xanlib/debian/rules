@@ -1,0 +1,30 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh  $@
+
+
+override_dh_auto_install:
+	make install prefix=`pwd`/debian/tmp/usr
+#	dh_auto_install prefix=debian/tmp
+
+
+#fix dependencies for amd64 packages
+override_dh_gencontrol:
+ifeq ($(DEB_HOST_ARCH),amd64)
+	MY_FILE=$(shell ls debian/*.substvars)
+	$(foreach var, $(shell ls debian/*.substvars) , cat $(var) | sed 's/libc6/libc6-i386/g' > $(var).tmp; rm $(var); mv $(var).tmp $(var))
+	$(foreach var, $(shell ls debian/*.substvars) , cat $(var) | sed 's/libgcc1/lib32gcc1/g' > $(var).tmp; rm $(var); mv $(var).tmp $(var))
+	$(foreach var, $(shell ls debian/*.substvars) , cat $(var) | sed 's/libstdc++6/lib32stdc++6/g' > $(var).tmp; rm $(var); mv $(var).tmp $(var))
+	$(foreach var, $(shell ls debian/*.substvars) , cat $(var) | sed 's/libglib2.0-0 *(.*)/ia32-libs/g' > $(var).tmp; rm $(var); mv $(var).tmp $(var))
+endif
+	dh_gencontrol

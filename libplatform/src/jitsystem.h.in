@@ -1,0 +1,171 @@
+/*
+ * Copyright (C) 2006 - 2014  Campanoni Simone
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+/**
+ * @file jitsystem.h.in
+ */
+#ifndef JITSYSTEM_H
+#define JITSYSTEM_H
+
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE
+#endif
+
+#include <limits.h>
+#include <float.h>
+
+/**
+ * @def JITUINT64
+ *
+ * Unsigned integer with size 64 bits
+ */
+#define JITUINT64 	@UINT64@
+
+/**
+ * @def JITUINT32
+ *
+ * Unsigned integer with size 32 bits
+ */
+#define JITUINT32 	@UINT32@
+
+/**
+ * @def JITUINT16
+ *
+ * Unsigned integer with size 16 bits
+ */
+#define JITUINT16 	@UINT16@
+
+/**
+ * @def JITUINT8
+ *
+ * Unsigned integer with size 8 bits
+ */
+#define JITUINT8 	@UINT8@
+
+/**
+ * @def JITNUINT
+ *
+ * Unsigned integer with native size 
+ */
+#define JITNUINT 	@NUINT@
+
+/**
+ * @def JITINT64
+ *
+ * Integer with size 64 bits
+ */
+#define JITINT64 	@INT64@
+
+/**
+ * @def JITINT32
+ *
+ * Integer with size 32 bits
+ */
+#define JITINT32 	@INT32@
+
+/**
+ * @def JITINT16
+ *
+ * Integer with size 16 bits
+ */
+#define JITINT16 	@INT16@
+
+/**
+ * @def JITINT8
+ *
+ * Integer with size 8 bits
+ */
+#define JITINT8 	@INT8@
+
+/**
+ * @def JITNINT
+ *
+ * Integer with native size 
+ */
+#define JITNINT 	@NINT@
+
+/**
+ * @def JITFLOAT32
+ *
+ * Floating point with size 32 bits
+ */
+#define JITFLOAT32	@FLOAT32@
+
+/**
+ * @def JITFLOAT64
+ *
+ * Floating point with size 64 bits
+ */
+#define JITFLOAT64	@FLOAT64@
+
+/**
+ * @def JITNFLOAT
+ *
+ * Floating point with native size
+ */
+#define JITNFLOAT	@NFLOAT@
+
+/**
+ * @def JITBOOLEAN
+ *
+ * Boolean
+ */
+#define JITBOOLEAN	@INT16@
+
+/**
+ * @def JITTRUE
+ *
+ * True value
+ */
+#define JITTRUE		1
+
+/**
+ * @def JITFALSE
+ *
+ * False value
+ */
+#define JITFALSE	0
+
+#define JITMAXINT8		((JITINT8)@MAX_INT8@)
+#define JITMININT8		((JITINT8)@MIN_INT8@)
+#define JITMAXUINT8		((JITUINT8)@MAX_UINT8@)
+#define JITMAXINT16		((JITINT16)@MAX_INT16@)
+#define JITMININT16		((JITINT16)@MIN_INT16@)
+#define JITMAXUINT16	((JITUINT16)@MAX_UINT16@)
+#define JITMAXINT32		((JITINT32)@MAX_INT32@)
+#define	JITMININT32		((JITINT32)@MIN_INT32@)
+#define	JITMAXUINT32	((JITUINT32)@MAX_UINT32@)
+#define	JITMAXINT64		((JITINT64)@MAX_INT64@)
+#define	JITMININT64		((JITINT64)@MIN_INT64@)
+#define	JITMAXUINT64	((JITUINT64)@MAX_UINT64@)
+#define JITMAXNUINT		((JITNUINT)@MAX_NUINT@)
+#define JITMAXFLOAT32	((JITFLOAT32)@MAX_FLOAT32@)
+#define JITMINFLOAT32	((JITFLOAT32)@MIN_FLOAT32@)
+#define JITMAXFLOAT64	((JITFLOAT64)@MAX_FLOAT64@)
+#define JITMINFLOAT64	((JITFLOAT64)@MIN_FLOAT64@)
+#define JITMAXNFLOAT	((JITNFLOAT)@MAX_NFLOAT@)
+#define JITMINNFLOAT	((JITNFLOAT)@MIN_NFLOAT@)
+
+#ifdef WIN32	// Windows
+	#define SHARED_LIB_FILE_EXTENSION ".dll"
+	#define ENV_VAR_SEPARATOR ';'
+#else			// Linux
+	#define SHARED_LIB_FILE_EXTENSION ".so"
+	#define ENV_VAR_SEPARATOR ':'
+#endif
+
+#endif

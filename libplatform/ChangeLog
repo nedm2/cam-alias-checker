@@ -1,0 +1,621 @@
+2014-05-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Switched to the GNU C extension.
+
+2014-02-17  Simone Campanoni  <xan@bubba.eecs.harvard.edu>
+
+	Oldest ILDJIT bug finally fixed thanks to Glenn: we need to define _ISOC99_SOURCE before the first inclusion of limits.h.
+
+2014-02-04  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Install in one directory higher (not in iljit subdirectory)
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Generate the static library as well.
+
+2013-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-12-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new file
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed an useless include
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added arm7
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge the doc
+
+2012-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2012-01-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added new API functions. Added documentation. Corrected bugs in windows code
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the shared flag
+
+2011-10-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link with dl
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove useless inclusions
+
+2011-08-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rely on environment variable to get the user home
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Diego's work
+
+2011-08-03  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-08-02  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized sources
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.6.0
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added platform_chmod and platform_fchmod functions
+
+2011-07-29  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-27  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Fixed a problem with Makefile(s)
+
+2011-07-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Makefiles and configure are now fully compatible with windows minGW
+
+2011-07-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Makefiles and configure are now fully compatible with windows minGW
+
+2011-07-18  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	added PLATFORM_destroyMutexAttr() function
+
+2011-07-15  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-07-11  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-06-14  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-05-23  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Merge with main branch
+
+2011-07-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-14  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set profile mode at optimization level 0
+
+2011-07-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2011-07-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Restored the functions deleted by Pietro.
+
+2011-07-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-08  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Fixed bugs in get_current_dirname and nanosleep for WIN. Removed some warnings and some unuseful commentend code.
+
+2011-07-06  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	corrected some warnings in windows
+
+2011-07-06  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	corrected some warnings in windows
+
+2011-07-03  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some functions
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2011-07-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function PLATFORM_rmdir_recursively.
+
+2011-06-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Pietro's work
+
+2011-06-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Removed some unuseful platform-specific conditional compiling directives. Added ENV_VAR_SEPARATOR in jitsystem.h
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-06-09  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added WINDOWS support for PLATFORM_posix_memalign, PLATFORM_getThisThreadId, LATFORM_getProcessorsNumber, PLATFORM_strsep, PLATFORM_S_ISLNK, PLATFORM_get_current_dir_name, LATFORM_nanosleep, LATFORM_clock_gettime, LATFORM_regfree, LATFORM_regexec, PLATFORM_regcomp, PLATFORM_re_compile_pattern, PLATFORM_re_set_syntax
+
+2011-05-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-04-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-04-22  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added debug function
+
+2011-04-20  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added define needed by plugins loader in WIN
+
+2011-04-18  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added debug functions. Fixed defines value for WIN. Fixed some wrappers bugs.
+
+2011-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Luca's work
+
+2011-04-02  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added wrappers for functions getProcessorsNumber, strsep,S_ISLNK, get_current_dir_name, nanosleep, clock_gettime  (linux only)
+
+2011-03-29  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added data structures and defines needed to libmanfred and iljit
+
+2011-03-29  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_scandir() wrapper, linux only
+
+2011-03-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added some Errno Costants not supported by minGW, needed by XanLib
+
+2011-03-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added some MinGW headers. Added needed defines not supported by MinGW. Added thread win-functions. Fixed PLATFORM_readlink() for WIN
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added platform-dependent header
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	merge with Pietro's work
+
+2011-02-27  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Ported openFile, stat, fstat, lstat, umask, unlink, symlink, readlink, dlopen on Windows
+
+2011-02-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Merge
+
+2011-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-16  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	ported dlfcn.h functions (dlopen, dlclose, dlsym, dlerror) support for Windows
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-16  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added getUserDir support
+
+2011-02-15  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added wrappers for getOptArg  (getopt.h); dlopen, dlclose, dlsym, dlerror (dlfcn.h); regfree, regexec, regcomp, re_compile_pattern, re_set_syntax (regex.h), LINUX ONLY
+
+2011-02-14  Stefano Pasquali  <icedream85@msn.com>
+
+	Added wrapping method for open()
+
+2011-02-14  Stefano Pasquali  <icedream85@msn.com>
+
+	[Merge]
+
+2011-02-11  Stefano Pasquali  <icedream85@msn.com>
+
+	[Merge]
+
+2011-02-10  Stefano Pasquali  <icedream85@msn.com>
+
+	[Merge]
+
+2011-02-14  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added basic Windows support for PLATFORM_getPlatformInfo() (ex uname); changed dirent.h function names in openDir,closeDir,readDir
+
+2011-02-13  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added PLATFORM_getCurrentCodePageName (ex PLATFORM_nl_langinfo())  WINDOWS support. 
+
+2011-02-10  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added opendir, readdir, closedir, utime WIN support
+
+2011-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-07  Luca  <luca@ops-notebook>
+
+	Nothing
+
+2011-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Stefano's work
+
+2011-02-07  Stefano Pasquali  <icedream85@msn.com>
+
+	Added Windows functionalities for file locking
+
+2011-02-07  Stefano Pasquali  <icedream85@msn.com>
+
+	[Merge]
+
+2011-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-06  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	fixed
+
+2011-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-06  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Removed 'alloca' function.
+
+2011-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Stefano's work
+
+2011-02-06  Stefano Pasquali  <icedream85@msn.com>
+
+	Added Windows functionality for: mkdir, chdir, close, cuserid, _exit, ftruncate, gethostname, isatty, lseek, read, rmdir, write (tested only alone)
+
+2011-02-06  Stefano Pasquali  <icedream85@msn.com>
+
+	[Merge]
+
+2011-02-05  Stefano Pasquali  <icedream85@msn.com>
+
+	[Merge]
+
+2011-02-05  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-02-05  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support for setFileLock (using fcntl) 
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	merge
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Used JIT types in builtin int
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	removed regex.h, that generates warnings
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-05  Luca  <luca@ops-notebook>
+
+	Merge Xan's
+
+2011-02-05  Luca  <luca@ops-notebook>
+
+	ADD missing function
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-04  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	wrappers revision
+
+2011-02-04  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	fixed multi-PLATFORM support warnings. Renamed multi-PLATFORM Thread Functions.
+
+2011-02-03  Stefano Pasquali  <icedream85@msn.com>
+
+	First touch for windows
+
+2011-02-03  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-01-31  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-01-31  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-01-30  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-01-30  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-02-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-03  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Warning fixed
+
+2011-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-01-31  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	fixed some warnings in platform_API
+
+2011-01-31  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Corrected getUserName and getUserPassword prototypes
+
+2011-01-31  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_getUserName, PLATFORM_getUserPassword
+
+2011-01-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	merge commit
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro and Stefano's work
+
+2011-01-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added wrapper headers in platform_API.h
+
+2011-01-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added wrappers body, linux only.
+
+2011-01-29  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	ok
+
+2011-01-29  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge conflict
+
+2011-01-29  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	m
+
+2011-01-29  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	-------------- This line and the following will be ignored 
+	--------------
+	ok 
+	
+	pending merges:
+	Stefano Pasquali 2011-01-29 [merge] Merge
+
+2011-01-29  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-01-29  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Merge
+
+2011-01-29  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-01-29  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-01-27  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added sys/stat.h wrapper (linux only)
+
+2011-01-27  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	ready
+
+2011-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2011-01-24  Stefano Pasquali  <icedream85@msn.com>
+
+	test jaiz
+
+2011-01-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	test
+
+2011-01-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+
