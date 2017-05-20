@@ -5,7 +5,26 @@ algorithm for compressing strided memory references and efficiently detecting
 aliases between compressed records (SD3: An Efficient Dynamic Data-Dependence 
 Profiling Mechanism, Minjang Kim, Hyesoon Kim, and Chi-Keung Luk).
 
-# Usage
+To analyse a loop, you must instrument the memory accesses you are interested 
+in and the boundaries of loop. This can be done manually or can be integrated
+into a compiler pass. When the instrumented loop is run it generates 
+compressed traces of the memory accesses and control flow. A standalone tool
+is provided to analyse these traces and generate a graph of inter-iteration 
+data dependences. 
+
+The decision to make the analysis offline (rather than generating the DDG as
+the program is running) was largely down to some of the limitations of the 
+infrastructure I used while writing this tool. In the future it would be nice
+to make it analyse online, maybe I will find time to do this at some point ;)
+
+More information about this tool can be found in this technical report, 
+section 4.1: https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-882.html.
+
+## Build
+
+    $ ./build.sh
+
+## Usage
 
 To profile a program and generate a dynamic DDG you should take the following
 steps:
