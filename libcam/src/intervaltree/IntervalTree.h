@@ -22,12 +22,12 @@ public:
 };
 
 template <class T, typename K>
-int intervalStart(const Interval<T,K>& i) {
+K intervalStart(const Interval<T,K>& i) {
     return i.start;
 }
 
 template <class T, typename K>
-int intervalStop(const Interval<T,K>& i) {
+K intervalStop(const Interval<T,K>& i) {
     return i.stop;
 }
 
@@ -57,8 +57,8 @@ public:
     intervalTree* left;
     intervalTree* right;
     intervalTree* parent;
-    unsigned int center; // median start value
-    unsigned int maxstop; // maximum stop value (right extent)
+    K center; // median start value
+    K maxstop; // maximum stop value (right extent)
 
     IntervalTree<T,K>(void)
         : left(NULL)
@@ -113,8 +113,8 @@ public:
             intervalVector& ivals,
             unsigned int depth = 16,
             unsigned int minbucket = 64,
-            unsigned int leftextent = 0,
-            unsigned int rightextent = 0,
+            K leftextent = 0,
+            K rightextent = 0,
             unsigned int maxbucket = 512,
             intervalTree* p = NULL
             )
@@ -139,9 +139,9 @@ public:
               maxstop = *max_element(stops.begin(), stops.end());
             }
         } else {
-            unsigned int leftp = 0;
-            unsigned int rightp = 0;
-            unsigned int centerp = 0;
+            K leftp = 0;
+            K rightp = 0;
+            K centerp = 0;
             
             if (leftextent || rightextent) {
                 leftp = leftextent;
