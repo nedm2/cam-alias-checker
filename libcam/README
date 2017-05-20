@@ -1,27 +1,25 @@
-LibChiara
+libcam
 ---------
 
-This library provides analysis at statictime and runtime of program loops.
+This library provides an interface for recording memory references and control 
+at runtime and generating compressed traces and a tool for analysing those 
+traces to produce a dynamic data dependence graph.
 
 The product is available under the terms of the GNU General Public
 License.  The latest version of the product can be downloaded
 from the following Web site:
 
-    http://ildjit.sourceforge.net
-
-When you have downloaded a version of the product, it can be unpacked
-and built in the usual manner:
-
-    $ tar xfz libchiara-VERSION.tar.gz
-    $ cd libchiara-VERSION
-    $ ./configure
-    $ make
+    https://github.com/nedm2/cam-alias-checker
 
 It can be run the configure with the following additional arguments:
-	--enable-debug		: enable the debug code
-	--enable-printdebug	: enable the debug code and the debug printer
-	--enable-profile	: disable the debug code and run the gcc with the 0 optimization level (-O0) to make the profiling of the library
+    --enable-debug		      : enable the debug code
+    --enable-printdebug	      : enable the debug code and the debug printer
+    --enable-profile	      : disable the debug code and run the gcc with the 0 optimization level (-O0) to make the profiling of the library
+    --enable-camtest          : Enable output of camtest binary for testing tracers
+    --enable-cambinary        : Enable generation of cam binary for analysing traces and generating DDG
+    --enable-memdebug         : Enable debugging of memory usage
+    --disable-track-mem-alloc : Disable tracking of memory allocation
 
 Comments are welcome.
 
-	- Simone Campanoni <simo.xan@gmail.com>
+	- Niall Murphy <niall@niallmurphy.com>

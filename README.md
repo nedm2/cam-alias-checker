@@ -49,7 +49,8 @@ The repository contains the following components:
 * libcam
 
   Contains all the code for generating the compressed traces and analysing
-  them to produce the dynamic DDG.
+  them to produce the dynamic DDG, authors: Niall Murphy, Timothy Jones, 
+  Simone Campanoni.
 
 * xanlib
 
