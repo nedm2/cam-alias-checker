@@ -17,12 +17,21 @@ the program is running) was largely down to some of the limitations of the
 infrastructure I used while writing this tool. In the future it would be nice
 to make it analyse online, maybe I will find time to do this at some point ;)
 
+Currently the tools can only analyse one loop at a time so it has to be run
+multiple times for multiple loops, although it could be extended fairly
+easily to analyse multiple loops.
+
 More information about this tool can be found in this technical report, 
 section 4.1: https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-882.html.
 
 ## Build
 
     $ ./build.sh
+
+To run an example
+
+    $ cd examples
+    $ ./run.sh
 
 ## Usage
 
